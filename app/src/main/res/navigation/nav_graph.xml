@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="hu.szakdolgozat.puzzlevr.ui.menu.main_menu.MainMenuFragment"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainMenuFragment_to_peersMenuFragment"
+            app:destination="@id/peersMenuFragment"
+            app:enterAnim="@anim/slide_in_to_left"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_to_right"
+            app:popExitAnim="@anim/slide_out_to_right" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_info_panel"
+            app:destination="@id/info_panel"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@anim/stay_still"
+            app:popEnterAnim="@anim/stay_still"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/peersMenuFragment"
+        android:name="hu.szakdolgozat.puzzlevr.ui.menu.peers_menu.PeersMenuFragment"
+        android:label="fragment_peers_menu"
+        tools:layout="@layout/fragment_peers_menu" />
+    <fragment
+        android:id="@+id/info_panel"
+        android:name="hu.szakdolgozat.puzzlevr.ui.menu.info_panel.InfoPanelFragment"
+        android:label="fragment_info_panel"
+        tools:layout="@layout/fragment_info_panel">
+        <action
+            android:id="@+id/action_info_panel_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@anim/stay_still"
+            app:popEnterAnim="@anim/stay_still"
+            app:popExitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/mainMenuFragment" />
+    </fragment>
+</navigation>

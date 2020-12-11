@@ -1,0 +1,161 @@
+{
+  "puzzle": {
+    "pieceheight": 0.05,
+    "pieces": [
+      {
+        "id": 0,
+        "form": "rect",
+        "texture": "textures/tapestry_pieces/tapestry1.png",
+        "offset": 0
+      },
+      {
+        "id": 1,
+        "form": "tri",
+        "texture": "textures/tapestry_pieces/tapestry2t.png",
+        "offset": -90
+      },
+      {
+        "id": 2,
+        "form": "rect",
+        "texture": "textures/tapestry_pieces/tapestry3.png",
+        "offset": 0
+      },
+      {
+        "id": 3,
+        "form": "tri",
+        "texture": "textures/tapestry_pieces/tapestry4t.png",
+        "offset": -90
+      },
+      {
+        "id": 4,
+        "form": "rect",
+        "texture": "textures/tapestry_pieces/tapestry5.png",
+        "offset": 0
+      },
+      {
+        "id": 5,
+        "form": "rect",
+        "texture": "textures/tapestry_pieces/tapestry6.png",
+        "offset": 0
+      },
+      {
+        "id": 6,
+        "form": "rect",
+        "texture": "textures/tapestry_pieces/tapestry7.png",
+        "offset": 0
+      },
+      {
+        "id": 7,
+        "form": "rect",
+        "texture": "textures/tapestry_pieces/tapestry8.png",
+        "offset": 0
+      },
+      {
+        "id": 8,
+        "form": "tri",
+        "texture": "textures/tapestry_pieces/tapestry9t.png",
+        "offset": 180
+      },
+      {
+        "id": 9,
+        "form": "tri",
+        "texture": "textures/tapestry_pieces/tapestry10t.png",
+        "offset": 90
+      },
+      {
+        "id": 10,
+        "form": "tri",
+        "texture": "textures/tapestry_pieces/tapestry11t.png",
+        "offset": 90
+      },
+      {
+        "id": 11,
+        "form": "tri",
+        "texture": "textures/tapestry_pieces/tapestry12t.png",
+        "offset": 90
+      }
+    ],
+    "neighbors": [
+      {
+        "onwerid": 0,
+        "ownid": 1,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 2,
+        "ownid": 1,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 2,
+        "ownid": 3,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 4,
+        "ownid": 3,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 5,
+        "ownid": 0,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 6,
+        "ownid": 0,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 6,
+        "ownid": 2,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 7,
+        "ownid": 2,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 7,
+        "ownid": 4,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 8,
+        "ownid": 4,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 9,
+        "ownid": 5,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 9,
+        "ownid": 6,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 10,
+        "ownid": 6,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 10,
+        "ownid": 7,
+        "relativepos": "left"
+      },
+      {
+        "onwerid": 11,
+        "ownid": 7,
+        "relativepos": "up"
+      },
+      {
+        "onwerid": 11,
+        "ownid": 8,
+        "relativepos": "left"
+      }
+    ]
+  }
+}

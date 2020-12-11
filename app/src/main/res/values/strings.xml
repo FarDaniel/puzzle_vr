@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PuzzleVr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searching_for_players">További játékosok keresése</string>
+    <string name="searching_failed">A játékosok keresése meghiúsult.</string>
+    <string name="game_use_desc">A játékban lévő tárgyakkal a Cardboard triggerének használatával, \na képernyő érintésével, a hangerő gombok lenyomásával vagy egy bluetooth-os kontroller gombjainak használatával interaktálhatunk. \nA cursor-unk a sárga karika, ezt a dolgokra ránézve mozgathatjuk.</string>
+    <string name="single_desc">Egyszemélyes játéknál \na tárgyak forgatását \na fejünk döntésével tehetjük. \nminél jobban döntjük a fejünk, \nannál gyorsabban fog forogni a tárgy.</string>
+    <string name="multi_desc">Többjátékos módban \na játékosoknak \nössze kell dolgoznia, \nés ha egy tárgyat \negyszerre ketten fognak meg, \nakkor a kurzoruk mozgatásával \n(más irányba nézés) \ntudják együtt forgatni az adott tárgyat.</string>
+    <string name="to_continue">A folytatáshoz kattintson a kijelzőre</string>
+    <string name="single_player">Egy játékos</string>
+    <string name="multy_player">Több játékos</string>
+    <string name="turn_on_wifi">turn on wifi</string>
+    <string name="turn_on_location">turn on location</string>
+    <string name="turn_on_wifi_long">A többszemélyes játékhoz kérem \n engedélyezze a wifi kapcsolatot</string>
+    <string name="dummy_name">Dummy name</string>
+    <string name="connecting">csatlakozás</string>
+    <string name="enable_Wifi">A több játékos mód használatához kérjük \n engedélyezze a wifi kapcsolatot!</string>
+    <string name="enable_Wifi_and_location">A több játékos mód használatához kérjük \n engedélyezze a wifi kapcsolatot \nés a helymeghatározást!</string>
+    <string name="enable_location">A több játékos mód használatához kérjük \n engedélyezze a helymeghatározást!</string>
+    <string name="disconnected">A kapcsolat megszakadt!</string>
+</resources>
